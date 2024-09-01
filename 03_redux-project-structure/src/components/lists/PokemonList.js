@@ -21,8 +21,7 @@ function PokemonList() {
     );
 
     return (
-        // 단축평가구문
-        // pokemons가 존재할때만 jsx를 랜더링하게 할 수 있다.
+     
         pokemons && (
             <div>
                 <h3>총 포켓몬 수 : { result.count }</h3>
